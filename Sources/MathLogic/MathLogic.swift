@@ -1,6 +1,7 @@
-public struct MathLogic {
-    public private(set) var text = "Hello, World!"
+public func add(x: Int, y: Int) -> Int {
+	x + y
+}
 
-    public init() {
-    }
+public func subtract(x: Int, y: Int) -> Int {
+	x - y
 }
